@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="sign-in.css">
+</head>
+<body>
+     <header>
+        <label class="ui-switch switch" >
+            <input type="checkbox" id="mode">
+            <div class="slider">
+              <div class="circle"></div>
+            </div>
+          </label>
+     </header>
+     <main>
+        <div class="container">
+            <div class="box-1">
+                <!-- left most box in the page -->
+                <div class="box-2">
+                    <div><h1>sign in</h1></div>
+                    <div class="logos">
+                        <a href="#"><i class="fa-brands fa-google-plus-g l"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f l"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in l"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram l"></i></a>
+                    </div>
+                    <div class="input">
+                        
+                        <p>or use your email&password</p>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                        <input type="password" name="password" id="password" placeholder="Password" required >
+                    </div>
+                    <div class="submit">
+                        <div><a href="#" id="fg">Forgot Your Password?</a></div>
+                        <div class="button"><input type="button" value="sign-in"></div>
+                    </div>
+                </div>
+                <!-- right most box in the page -->
+                <div class="box-3">
+                    <div class="text">
+                        <h1>welcome, friend!</h1>
+                        <br>
+                        <p>Enter your personal details to use all of site features</p>
+                    </div>
+                    <div>
+                        <input type="button" value="sign-up" id="login">
+                    </div>
+                </div>
+            </div>
+        </div>
+     </main>
+     <script src="sign-in.js"></script>
+</body>
+</html>
